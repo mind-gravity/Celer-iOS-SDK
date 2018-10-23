@@ -1,0 +1,6 @@
+framework module Pods_CelerSDKSamples {
+  umbrella header "Pods-CelerSDKSamples-umbrella.h"
+
+  export *
+  module * { export * }
+}

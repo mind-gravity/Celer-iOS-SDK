@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE020C5F217FC203000872F9 /* FaucetHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE020C5E217FC203000872F9 /* FaucetHelper.swift */; };
+		AE020C61217FC238000872F9 /* KeyStoreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE020C60217FC238000872F9 /* KeyStoreHelper.swift */; };
+		AE020C63217FC29C000872F9 /* JoinCelerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE020C62217FC29C000872F9 /* JoinCelerViewController.swift */; };
+		AE020C65217FC2D6000872F9 /* GameSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE020C64217FC2D6000872F9 /* GameSetupViewController.swift */; };
+		AE020C67217FC2F7000872F9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE020C66217FC2F7000872F9 /* GameViewController.swift */; };
 		AE12136B21755C7A004904C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12136A21755C7A004904C1 /* AppDelegate.swift */; };
-		AE12136D21755C7A004904C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12136C21755C7A004904C1 /* ViewController.swift */; };
-		AE12137021755C7A004904C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE12136E21755C7A004904C1 /* Main.storyboard */; };
 		AE12137221755C7B004904C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE12137121755C7B004904C1 /* Assets.xcassets */; };
 		AE12137521755C7B004904C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE12137321755C7B004904C1 /* LaunchScreen.storyboard */; };
-		AE12138221755E95004904C1 /* KeyStoreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12138121755E95004904C1 /* KeyStoreHelper.swift */; };
-		AE12138421755EBC004904C1 /* Mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE12138321755EBC004904C1 /* Mobile.framework */; };
+		D1C9FA7C7741C048F2A870F0 /* Pods_CelerSDKSamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D93FD6552C86C5F8C5B949 /* Pods_CelerSDKSamples.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,15 +32,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1CFA3508B3BE0C9975A47128 /* Pods-CelerSDKSamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CelerSDKSamples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CelerSDKSamples/Pods-CelerSDKSamples.debug.xcconfig"; sourceTree = "<group>"; };
+		97D93FD6552C86C5F8C5B949 /* Pods_CelerSDKSamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CelerSDKSamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE020C5E217FC203000872F9 /* FaucetHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaucetHelper.swift; sourceTree = "<group>"; };
+		AE020C60217FC238000872F9 /* KeyStoreHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStoreHelper.swift; sourceTree = "<group>"; };
+		AE020C62217FC29C000872F9 /* JoinCelerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinCelerViewController.swift; sourceTree = "<group>"; };
+		AE020C64217FC2D6000872F9 /* GameSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSetupViewController.swift; sourceTree = "<group>"; };
+		AE020C66217FC2F7000872F9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		AE12136721755C7A004904C1 /* CelerSDKSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CelerSDKSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE12136A21755C7A004904C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE12136C21755C7A004904C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AE12136F21755C7A004904C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE12137121755C7B004904C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE12137421755C7B004904C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE12137621755C7B004904C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE12138121755E95004904C1 /* KeyStoreHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyStoreHelper.swift; sourceTree = "<group>"; };
-		AE12138321755EBC004904C1 /* Mobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mobile.framework; sourceTree = "<group>"; };
+		E3FD60E5A3562E8B1449F7DE /* Pods-CelerSDKSamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CelerSDKSamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-CelerSDKSamples/Pods-CelerSDKSamples.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,19 +52,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE12138421755EBC004904C1 /* Mobile.framework in Frameworks */,
+				D1C9FA7C7741C048F2A870F0 /* Pods_CelerSDKSamples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		360809DFEFD861D6DCDDCC62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97D93FD6552C86C5F8C5B949 /* Pods_CelerSDKSamples.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		836AFCE5F3412BCE58695C91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CFA3508B3BE0C9975A47128 /* Pods-CelerSDKSamples.debug.xcconfig */,
+				E3FD60E5A3562E8B1449F7DE /* Pods-CelerSDKSamples.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AE12135E21755C7A004904C1 = {
 			isa = PBXGroup;
 			children = (
-				AE12138321755EBC004904C1 /* Mobile.framework */,
 				AE12136921755C7A004904C1 /* CelerSDKSamples */,
 				AE12136821755C7A004904C1 /* Products */,
+				836AFCE5F3412BCE58695C91 /* Pods */,
+				360809DFEFD861D6DCDDCC62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,13 +97,15 @@
 		AE12136921755C7A004904C1 /* CelerSDKSamples */ = {
 			isa = PBXGroup;
 			children = (
-				AE12138121755E95004904C1 /* KeyStoreHelper.swift */,
 				AE12136A21755C7A004904C1 /* AppDelegate.swift */,
-				AE12136C21755C7A004904C1 /* ViewController.swift */,
-				AE12136E21755C7A004904C1 /* Main.storyboard */,
 				AE12137121755C7B004904C1 /* Assets.xcassets */,
 				AE12137321755C7B004904C1 /* LaunchScreen.storyboard */,
 				AE12137621755C7B004904C1 /* Info.plist */,
+				AE020C5E217FC203000872F9 /* FaucetHelper.swift */,
+				AE020C60217FC238000872F9 /* KeyStoreHelper.swift */,
+				AE020C62217FC29C000872F9 /* JoinCelerViewController.swift */,
+				AE020C64217FC2D6000872F9 /* GameSetupViewController.swift */,
+				AE020C66217FC2F7000872F9 /* GameViewController.swift */,
 			);
 			path = CelerSDKSamples;
 			sourceTree = "<group>";
@@ -91,10 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE12137921755C7B004904C1 /* Build configuration list for PBXNativeTarget "CelerSDKSamples" */;
 			buildPhases = (
+				3CEF103791A7EA8AC4C952B8 /* [CP] Check Pods Manifest.lock */,
 				AE12136321755C7A004904C1 /* Sources */,
 				AE12136421755C7A004904C1 /* Frameworks */,
 				AE12136521755C7A004904C1 /* Resources */,
 				AE12138021755DB6004904C1 /* Embed Frameworks */,
+				AEF1F50BB5152757C7B78864 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,34 +172,75 @@
 			files = (
 				AE12137521755C7B004904C1 /* LaunchScreen.storyboard in Resources */,
 				AE12137221755C7B004904C1 /* Assets.xcassets in Resources */,
-				AE12137021755C7A004904C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CEF103791A7EA8AC4C952B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CelerSDKSamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEF1F50BB5152757C7B78864 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CelerSDKSamples/Pods-CelerSDKSamples-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Celer/Celer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Celer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CelerSDKSamples/Pods-CelerSDKSamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AE12136321755C7A004904C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE12136D21755C7A004904C1 /* ViewController.swift in Sources */,
+				AE020C65217FC2D6000872F9 /* GameSetupViewController.swift in Sources */,
+				AE020C63217FC29C000872F9 /* JoinCelerViewController.swift in Sources */,
+				AE020C61217FC238000872F9 /* KeyStoreHelper.swift in Sources */,
 				AE12136B21755C7A004904C1 /* AppDelegate.swift in Sources */,
-				AE12138221755E95004904C1 /* KeyStoreHelper.swift in Sources */,
+				AE020C67217FC2F7000872F9 /* GameViewController.swift in Sources */,
+				AE020C5F217FC203000872F9 /* FaucetHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AE12136E21755C7A004904C1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE12136F21755C7A004904C1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AE12137321755C7B004904C1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -301,6 +370,7 @@
 		};
 		AE12137A21755C7B004904C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CFA3508B3BE0C9975A47128 /* Pods-CelerSDKSamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -311,6 +381,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = CelerSDKSamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,6 +395,7 @@
 		};
 		AE12137B21755C7B004904C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3FD60E5A3562E8B1449F7DE /* Pods-CelerSDKSamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -334,6 +406,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = CelerSDKSamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
