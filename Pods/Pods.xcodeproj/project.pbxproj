@@ -8,18 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		147FC2CCDD168B52ED1685725935C2D2 /* Celer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB727297942EB2C436BBC2C9813066FD /* Celer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		224BADE0CE549EAB557130C720251052 /* Pods-CelerSDKSamples-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E1EE130F733D5AEF1AF7E57B425898 /* Pods-CelerSDKSamples-dummy.m */; };
+		2DB7E76A8D1623E4EF374F0BECF0F546 /* Pods-OffchainPaymentSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 714216C6A5360364C8574E69B6174643 /* Pods-OffchainPaymentSample-dummy.m */; };
 		4E7963372EA9498283050D9C00FA0220 /* CelerGroupClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB894BF27C7E818E3A5C40148DD2D48F /* CelerGroupClient.swift */; };
-		8D2F3A3DF3EADAFD329BE3EC110813F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6732892E22F4C3FB1AA1B679253404C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6AC5B4D027FA7B253557D1AA8EF13BD1 /* Pods-MultiplayerGameSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 802F32007B47198140651B584A7C7640 /* Pods-MultiplayerGameSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71D9808D34E7A217D5C7381F228CB672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8B57A96E6581A6C51D54D8A98F2A9E9B /* Pods-OffchainPaymentSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78BAE4B3FCC30AE3E79545441473ACA4 /* Pods-OffchainPaymentSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DD6FF262E3549232BA705D74F44B276 /* CelerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C027105112DDA2597DE6D5190BD003 /* CelerClient.swift */; };
 		9006DC0BD80D7740DB4B0EBD9836EE01 /* Celer.h in Headers */ = {isa = PBXBuildFile; fileRef = 09F2143CF6E21E3CF4EB359F03355F29 /* Celer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9DADD5AFCBAC726132641CE310D6694 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		C4962E9C529B0F49CF560FB5749CF3A7 /* Celer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D89B930AB9569607962F05B46C9397F3 /* Celer-dummy.m */; };
-		F3BBE98C891A85C04BC34FB2C20C8FBB /* Pods-CelerSDKSamples-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A12069C0CC99307105260C1ED6BC590F /* Pods-CelerSDKSamples-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4DEC5BA2CCCC0F9998263CFDC47F47F /* Pods-MultiplayerGameSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AC1BB70F558DCCCA6061D574A38448 /* Pods-MultiplayerGameSample-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		16B761211B9E6526E0ECF53CE36414B6 /* PBXContainerItemProxy */ = {
+		115FDB543256686E5FD500416DA557A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B560C94AE256FB9702F3FD9E70CA27A0;
+			remoteInfo = Celer;
+		};
+		DC7BA8F3666B66C1CA2637A38EA55173 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -29,38 +39,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0640D39E93F0F1CB8E91BC900D063343 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09F2143CF6E21E3CF4EB359F03355F29 /* Celer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Celer.h; path = Celer/Celer.h; sourceTree = "<group>"; };
 		1103B62AEF6951E11F8C45088D327ED5 /* Celer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Celer.modulemap; sourceTree = "<group>"; };
+		13878C2A98E361D842751B9538259B58 /* Pods-MultiplayerGameSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiplayerGameSample-resources.sh"; sourceTree = "<group>"; };
+		17AC1BB70F558DCCCA6061D574A38448 /* Pods-MultiplayerGameSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MultiplayerGameSample-dummy.m"; sourceTree = "<group>"; };
+		190F66C97815014901A20AD6A8FF0BC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		287733D009ED75F64A2F218FA92FE39A /* Celersdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Celersdk.framework; path = Frameworks/Celersdk.framework; sourceTree = "<group>"; };
-		3B8CDC3B18D1FF40285642B0F5EFF2E1 /* Pods-CelerSDKSamples-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CelerSDKSamples-resources.sh"; sourceTree = "<group>"; };
-		3C7AA2CC5AC5B3CC82046C01404E37BD /* Pods-CelerSDKSamples-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CelerSDKSamples-frameworks.sh"; sourceTree = "<group>"; };
-		44B4F7D29B6E4AA25E8A8ADBBD34565B /* Pods-CelerSDKSamples-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CelerSDKSamples-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2BB3B94A7A795011FFD9C5877F7D2578 /* Pods-MultiplayerGameSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MultiplayerGameSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		352F1D7B21291403F7C716577E17F60A /* Celer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Celer.framework; path = Celer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E77F34331E0A85C13D1B7EE1E92CE3 /* Pods-OffchainPaymentSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OffchainPaymentSample-resources.sh"; sourceTree = "<group>"; };
 		4B4884CD1FE410279A9718EB1A5F831A /* Celer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Celer.xcconfig; sourceTree = "<group>"; };
+		506D00A99C0406752A70043A3938F763 /* Pods-OffchainPaymentSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OffchainPaymentSample-frameworks.sh"; sourceTree = "<group>"; };
 		53C027105112DDA2597DE6D5190BD003 /* CelerClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CelerClient.swift; path = Celer/CelerClient.swift; sourceTree = "<group>"; };
+		553C8374B2CD7DE32EB3C30E39BF05F3 /* Pods_OffchainPaymentSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OffchainPaymentSample.framework; path = "Pods-OffchainPaymentSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		571547D125B49E7057DFD0C510BE5A96 /* Pods-OffchainPaymentSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OffchainPaymentSample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5D3AD4C334171AFC717F72DC2A596BE9 /* Pods-CelerSDKSamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CelerSDKSamples.debug.xcconfig"; sourceTree = "<group>"; };
+		5AA4434E577FCF6A1C1F5EFD8EEFC130 /* Pods-OffchainPaymentSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OffchainPaymentSample.release.xcconfig"; sourceTree = "<group>"; };
 		5F07B49E7EA78EA74D03D9081099A16D /* Celer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Celer-prefix.pch"; sourceTree = "<group>"; };
-		65E1EE130F733D5AEF1AF7E57B425898 /* Pods-CelerSDKSamples-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CelerSDKSamples-dummy.m"; sourceTree = "<group>"; };
-		691DE9CD2CC9F0AE3E11E7476D2D1790 /* Pods-CelerSDKSamples.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CelerSDKSamples.modulemap"; sourceTree = "<group>"; };
+		714216C6A5360364C8574E69B6174643 /* Pods-OffchainPaymentSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OffchainPaymentSample-dummy.m"; sourceTree = "<group>"; };
+		78B4C6889F94E6CB30E858E2867989E7 /* Pods_MultiplayerGameSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MultiplayerGameSample.framework; path = "Pods-MultiplayerGameSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BAE4B3FCC30AE3E79545441473ACA4 /* Pods-OffchainPaymentSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OffchainPaymentSample-umbrella.h"; sourceTree = "<group>"; };
+		802F32007B47198140651B584A7C7640 /* Pods-MultiplayerGameSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MultiplayerGameSample-umbrella.h"; sourceTree = "<group>"; };
+		8B52D6FE876B361967B111ACCA84D354 /* Pods-MultiplayerGameSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MultiplayerGameSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C58C848E75AB5D95F556478F04A2F24 /* Pods-MultiplayerGameSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiplayerGameSample.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A12069C0CC99307105260C1ED6BC590F /* Pods-CelerSDKSamples-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CelerSDKSamples-umbrella.h"; sourceTree = "<group>"; };
-		AA1F6EF30AF987A8E984204A50A4BF63 /* Pods-CelerSDKSamples-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CelerSDKSamples-acknowledgements.plist"; sourceTree = "<group>"; };
+		961AD3091027B1E4F1BE8A97D5F0F542 /* Pods-MultiplayerGameSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MultiplayerGameSample.modulemap"; sourceTree = "<group>"; };
 		AB894BF27C7E818E3A5C40148DD2D48F /* CelerGroupClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CelerGroupClient.swift; path = Celer/CelerGroupClient.swift; sourceTree = "<group>"; };
-		AEFBCFCA368A393FD4B97A660408D66B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4F2C7E1425E7BB896BCD30C01356A23 /* Pods-OffchainPaymentSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OffchainPaymentSample-acknowledgements.plist"; sourceTree = "<group>"; };
 		CA9B614B0A77BCF718510C3A1BD69D4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D292AD377F2A74C92781AC0168BD3368 /* Pods-CelerSDKSamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CelerSDKSamples.release.xcconfig"; sourceTree = "<group>"; };
 		D89B930AB9569607962F05B46C9397F3 /* Celer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Celer-dummy.m"; sourceTree = "<group>"; };
-		DA8B61EA3AFD8E34A776219E6DCFC428 /* Pods_CelerSDKSamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CelerSDKSamples.framework; path = "Pods-CelerSDKSamples.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA21446B0F1EE5778C206DEA98BC04B0 /* Celer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Celer.framework; path = Celer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59E1DD9C074B94EB951AD7A44E4145F /* Pods-OffchainPaymentSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OffchainPaymentSample.modulemap"; sourceTree = "<group>"; };
 		EB727297942EB2C436BBC2C9813066FD /* Celer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Celer-umbrella.h"; sourceTree = "<group>"; };
+		FAB70F91BE8FF29543DE700793FF0726 /* Pods-MultiplayerGameSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiplayerGameSample-frameworks.sh"; sourceTree = "<group>"; };
+		FCD664C954EC4156546F5B874791D8EB /* Pods-MultiplayerGameSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiplayerGameSample.debug.xcconfig"; sourceTree = "<group>"; };
+		FE5686D3A51F46AFB52EEAE136FAABDC /* Pods-OffchainPaymentSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OffchainPaymentSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6ED9BECFF78BB1869EF72B3B1EDC1897 /* Frameworks */ = {
+		CD6DA7590BF04C76CE7897EFA72F815A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D2F3A3DF3EADAFD329BE3EC110813F8 /* Foundation.framework in Frameworks */,
+				6732892E22F4C3FB1AA1B679253404C6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +90,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9DADD5AFCBAC726132641CE310D6694 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBDD0C612CCE20C05920804963EC6F97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D9808D34E7A217D5C7381F228CB672 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,13 +118,22 @@
 			path = "../Target Support Files/Celer";
 			sourceTree = "<group>";
 		};
-		0E316E2477FC237B1C4B9207E034788E /* Products */ = {
+		1E3C241AD3D202411667660F2AF396E1 /* Pods-MultiplayerGameSample */ = {
 			isa = PBXGroup;
 			children = (
-				EA21446B0F1EE5778C206DEA98BC04B0 /* Celer.framework */,
-				DA8B61EA3AFD8E34A776219E6DCFC428 /* Pods_CelerSDKSamples.framework */,
+				190F66C97815014901A20AD6A8FF0BC0 /* Info.plist */,
+				961AD3091027B1E4F1BE8A97D5F0F542 /* Pods-MultiplayerGameSample.modulemap */,
+				8B52D6FE876B361967B111ACCA84D354 /* Pods-MultiplayerGameSample-acknowledgements.markdown */,
+				2BB3B94A7A795011FFD9C5877F7D2578 /* Pods-MultiplayerGameSample-acknowledgements.plist */,
+				17AC1BB70F558DCCCA6061D574A38448 /* Pods-MultiplayerGameSample-dummy.m */,
+				FAB70F91BE8FF29543DE700793FF0726 /* Pods-MultiplayerGameSample-frameworks.sh */,
+				13878C2A98E361D842751B9538259B58 /* Pods-MultiplayerGameSample-resources.sh */,
+				802F32007B47198140651B584A7C7640 /* Pods-MultiplayerGameSample-umbrella.h */,
+				FCD664C954EC4156546F5B874791D8EB /* Pods-MultiplayerGameSample.debug.xcconfig */,
+				8C58C848E75AB5D95F556478F04A2F24 /* Pods-MultiplayerGameSample.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-MultiplayerGameSample";
+			path = "Target Support Files/Pods-MultiplayerGameSample";
 			sourceTree = "<group>";
 		};
 		2E71F949D829BAF2DCBA10E44441307D /* Frameworks */ = {
@@ -114,6 +152,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		6FF8D2509625536F42E8C84E7F627CF3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E3C241AD3D202411667660F2AF396E1 /* Pods-MultiplayerGameSample */,
+				C109A289FA39B9A38B6FD06E3E93C4DA /* Pods-OffchainPaymentSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		76AE0D44718958FB363222EAA1A4C624 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,23 +169,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7C2AEC69DE27B410B64DEDDA046452E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				352F1D7B21291403F7C716577E17F60A /* Celer.framework */,
+				78B4C6889F94E6CB30E858E2867989E7 /* Pods_MultiplayerGameSample.framework */,
+				553C8374B2CD7DE32EB3C30E39BF05F3 /* Pods_OffchainPaymentSample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				76AE0D44718958FB363222EAA1A4C624 /* Pods */,
-				0E316E2477FC237B1C4B9207E034788E /* Products */,
-				B6DC088A77D27B8ECC6990EB7FC7E3A2 /* Targets Support Files */,
+				7C2AEC69DE27B410B64DEDDA046452E0 /* Products */,
+				6FF8D2509625536F42E8C84E7F627CF3 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		B6DC088A77D27B8ECC6990EB7FC7E3A2 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E73C459E6AE915E64A44B75B585E01F4 /* Pods-CelerSDKSamples */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -149,22 +198,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E73C459E6AE915E64A44B75B585E01F4 /* Pods-CelerSDKSamples */ = {
+		C109A289FA39B9A38B6FD06E3E93C4DA /* Pods-OffchainPaymentSample */ = {
 			isa = PBXGroup;
 			children = (
-				AEFBCFCA368A393FD4B97A660408D66B /* Info.plist */,
-				691DE9CD2CC9F0AE3E11E7476D2D1790 /* Pods-CelerSDKSamples.modulemap */,
-				44B4F7D29B6E4AA25E8A8ADBBD34565B /* Pods-CelerSDKSamples-acknowledgements.markdown */,
-				AA1F6EF30AF987A8E984204A50A4BF63 /* Pods-CelerSDKSamples-acknowledgements.plist */,
-				65E1EE130F733D5AEF1AF7E57B425898 /* Pods-CelerSDKSamples-dummy.m */,
-				3C7AA2CC5AC5B3CC82046C01404E37BD /* Pods-CelerSDKSamples-frameworks.sh */,
-				3B8CDC3B18D1FF40285642B0F5EFF2E1 /* Pods-CelerSDKSamples-resources.sh */,
-				A12069C0CC99307105260C1ED6BC590F /* Pods-CelerSDKSamples-umbrella.h */,
-				5D3AD4C334171AFC717F72DC2A596BE9 /* Pods-CelerSDKSamples.debug.xcconfig */,
-				D292AD377F2A74C92781AC0168BD3368 /* Pods-CelerSDKSamples.release.xcconfig */,
+				0640D39E93F0F1CB8E91BC900D063343 /* Info.plist */,
+				E59E1DD9C074B94EB951AD7A44E4145F /* Pods-OffchainPaymentSample.modulemap */,
+				571547D125B49E7057DFD0C510BE5A96 /* Pods-OffchainPaymentSample-acknowledgements.markdown */,
+				B4F2C7E1425E7BB896BCD30C01356A23 /* Pods-OffchainPaymentSample-acknowledgements.plist */,
+				714216C6A5360364C8574E69B6174643 /* Pods-OffchainPaymentSample-dummy.m */,
+				506D00A99C0406752A70043A3938F763 /* Pods-OffchainPaymentSample-frameworks.sh */,
+				35E77F34331E0A85C13D1B7EE1E92CE3 /* Pods-OffchainPaymentSample-resources.sh */,
+				78BAE4B3FCC30AE3E79545441473ACA4 /* Pods-OffchainPaymentSample-umbrella.h */,
+				FE5686D3A51F46AFB52EEAE136FAABDC /* Pods-OffchainPaymentSample.debug.xcconfig */,
+				5AA4434E577FCF6A1C1F5EFD8EEFC130 /* Pods-OffchainPaymentSample.release.xcconfig */,
 			);
-			name = "Pods-CelerSDKSamples";
-			path = "Target Support Files/Pods-CelerSDKSamples";
+			name = "Pods-OffchainPaymentSample";
+			path = "Target Support Files/Pods-OffchainPaymentSample";
 			sourceTree = "<group>";
 		};
 		EAB52ADB8CF00241D8858F576E5CC8EF /* Celer */ = {
@@ -183,14 +232,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4D323CDB9A49E6725318153E26246923 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F3BBE98C891A85C04BC34FB2C20C8FBB /* Pods-CelerSDKSamples-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		62B8A72F3205EB70C84F96A6883792E5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -200,26 +241,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FE558B075C0A7E47D3409B0752384F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC5B4D027FA7B253557D1AA8EF13BD1 /* Pods-MultiplayerGameSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4B9EAC48807E8AC3391E1DD52032B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B57A96E6581A6C51D54D8A98F2A9E9B /* Pods-OffchainPaymentSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		24B80FE37F93594ED4D93DCBAABCDAD8 /* Pods-CelerSDKSamples */ = {
+		312066087228785BEE6EE069207C6473 /* Pods-MultiplayerGameSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81166B31FDEFBF837F5192649077C3E5 /* Build configuration list for PBXNativeTarget "Pods-CelerSDKSamples" */;
+			buildConfigurationList = EF999FDDF327075DDE7F9F940A329366 /* Build configuration list for PBXNativeTarget "Pods-MultiplayerGameSample" */;
 			buildPhases = (
-				4D323CDB9A49E6725318153E26246923 /* Headers */,
-				BC5FEE88AA0FC3C846CEEE02DCFD642C /* Sources */,
-				6ED9BECFF78BB1869EF72B3B1EDC1897 /* Frameworks */,
-				A63B11F3FD92CE333131D163AC7BC766 /* Resources */,
+				9FE558B075C0A7E47D3409B0752384F8 /* Headers */,
+				DC5C120F0D4C6519C51567BBD95EA853 /* Sources */,
+				CD6DA7590BF04C76CE7897EFA72F815A /* Frameworks */,
+				B0BDDD9C4EAF3FCB3D751DD22252AA4D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FE7D36D39065B73C752EFB1C3DC66E22 /* PBXTargetDependency */,
+				2F0D8E22711B0D6B0A33C6327F58160D /* PBXTargetDependency */,
 			);
-			name = "Pods-CelerSDKSamples";
-			productName = "Pods-CelerSDKSamples";
-			productReference = DA8B61EA3AFD8E34A776219E6DCFC428 /* Pods_CelerSDKSamples.framework */;
+			name = "Pods-MultiplayerGameSample";
+			productName = "Pods-MultiplayerGameSample";
+			productReference = 78B4C6889F94E6CB30E858E2867989E7 /* Pods_MultiplayerGameSample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F6422AFAA3E550EFC050A668CD821E1 /* Pods-OffchainPaymentSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC57DCFE1584764FFD006509201C625F /* Build configuration list for PBXNativeTarget "Pods-OffchainPaymentSample" */;
+			buildPhases = (
+				BA4B9EAC48807E8AC3391E1DD52032B9 /* Headers */,
+				A21B239E41434FB5CDC7A38DCD0EA432 /* Sources */,
+				DBDD0C612CCE20C05920804963EC6F97 /* Frameworks */,
+				3373D4FEC20754E090E78399CE801836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B90B7CBF01FAA83AFD707BDE082553D /* PBXTargetDependency */,
+			);
+			name = "Pods-OffchainPaymentSample";
+			productName = "Pods-OffchainPaymentSample";
+			productReference = 553C8374B2CD7DE32EB3C30E39BF05F3 /* Pods_OffchainPaymentSample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B560C94AE256FB9702F3FD9E70CA27A0 /* Celer */ = {
@@ -237,7 +313,7 @@
 			);
 			name = Celer;
 			productName = Celer;
-			productReference = EA21446B0F1EE5778C206DEA98BC04B0 /* Celer.framework */;
+			productReference = 352F1D7B21291403F7C716577E17F60A /* Celer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -257,17 +333,25 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0E316E2477FC237B1C4B9207E034788E /* Products */;
+			productRefGroup = 7C2AEC69DE27B410B64DEDDA046452E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B560C94AE256FB9702F3FD9E70CA27A0 /* Celer */,
-				24B80FE37F93594ED4D93DCBAABCDAD8 /* Pods-CelerSDKSamples */,
+				312066087228785BEE6EE069207C6473 /* Pods-MultiplayerGameSample */,
+				9F6422AFAA3E550EFC050A668CD821E1 /* Pods-OffchainPaymentSample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3373D4FEC20754E090E78399CE801836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E466B9AC81E5A4DF46AEDAD85ADFD1B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -275,7 +359,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A63B11F3FD92CE333131D163AC7BC766 /* Resources */ = {
+		B0BDDD9C4EAF3FCB3D751DD22252AA4D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -285,11 +369,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BC5FEE88AA0FC3C846CEEE02DCFD642C /* Sources */ = {
+		A21B239E41434FB5CDC7A38DCD0EA432 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224BADE0CE549EAB557130C720251052 /* Pods-CelerSDKSamples-dummy.m in Sources */,
+				2DB7E76A8D1623E4EF374F0BECF0F546 /* Pods-OffchainPaymentSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5C120F0D4C6519C51567BBD95EA853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DEC5BA2CCCC0F9998263CFDC47F47F /* Pods-MultiplayerGameSample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,15 +398,102 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FE7D36D39065B73C752EFB1C3DC66E22 /* PBXTargetDependency */ = {
+		2F0D8E22711B0D6B0A33C6327F58160D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Celer;
 			target = B560C94AE256FB9702F3FD9E70CA27A0 /* Celer */;
-			targetProxy = 16B761211B9E6526E0ECF53CE36414B6 /* PBXContainerItemProxy */;
+			targetProxy = 115FDB543256686E5FD500416DA557A2 /* PBXContainerItemProxy */;
+		};
+		3B90B7CBF01FAA83AFD707BDE082553D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Celer;
+			target = B560C94AE256FB9702F3FD9E70CA27A0 /* Celer */;
+			targetProxy = DC7BA8F3666B66C1CA2637A38EA55173 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		52E79D51E3350D9E4CE70A0976E2C87B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE5686D3A51F46AFB52EEAE136FAABDC /* Pods-OffchainPaymentSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-OffchainPaymentSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OffchainPaymentSample/Pods-OffchainPaymentSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DED58DBB6DCB8AE714816BD7A6A03E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AA4434E577FCF6A1C1F5EFD8EEFC130 /* Pods-OffchainPaymentSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-OffchainPaymentSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OffchainPaymentSample/Pods-OffchainPaymentSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -379,6 +558,87 @@
 			};
 			name = Debug;
 		};
+		9EBD62230F481B27A8244BC6A72C0E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C58C848E75AB5D95F556478F04A2F24 /* Pods-MultiplayerGameSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-MultiplayerGameSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MultiplayerGameSample/Pods-MultiplayerGameSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB0E7B94B5A054EE68B1D38776B0A432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCD664C954EC4156546F5B874791D8EB /* Pods-MultiplayerGameSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-MultiplayerGameSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MultiplayerGameSample/Pods-MultiplayerGameSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		AE845890E8C2952337C979A0A4D49F1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B4884CD1FE410279A9718EB1A5F831A /* Celer.xcconfig */;
@@ -415,47 +675,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		B048FA5ED7A9F3AB8CB37E676F9B3B44 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D292AD377F2A74C92781AC0168BD3368 /* Pods-CelerSDKSamples.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-CelerSDKSamples/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CelerSDKSamples/Pods-CelerSDKSamples.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -555,46 +774,6 @@
 			};
 			name = Release;
 		};
-		CC2831CD8EDC0B5D609F406B5DFEECFA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D3AD4C334171AFC717F72DC2A596BE9 /* Pods-CelerSDKSamples.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-CelerSDKSamples/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CelerSDKSamples/Pods-CelerSDKSamples.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -607,11 +786,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81166B31FDEFBF837F5192649077C3E5 /* Build configuration list for PBXNativeTarget "Pods-CelerSDKSamples" */ = {
+		EC57DCFE1584764FFD006509201C625F /* Build configuration list for PBXNativeTarget "Pods-OffchainPaymentSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC2831CD8EDC0B5D609F406B5DFEECFA /* Debug */,
-				B048FA5ED7A9F3AB8CB37E676F9B3B44 /* Release */,
+				52E79D51E3350D9E4CE70A0976E2C87B /* Debug */,
+				5DED58DBB6DCB8AE714816BD7A6A03E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF999FDDF327075DDE7F9F940A329366 /* Build configuration list for PBXNativeTarget "Pods-MultiplayerGameSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0E7B94B5A054EE68B1D38776B0A432 /* Debug */,
+				9EBD62230F481B27A8244BC6A72C0E37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

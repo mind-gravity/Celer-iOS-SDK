@@ -1,0 +1,6 @@
+framework module Pods_MultiplayerGameSample {
+  umbrella header "Pods-MultiplayerGameSample-umbrella.h"
+
+  export *
+  module * { export * }
+}

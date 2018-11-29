@@ -67,8 +67,8 @@ class GameViewController: UIViewController {
     
     view.backgroundColor = .white
     navigationItem.title = "Who Clicks Faster"
-    let (_, client) = KeyStoreHelper.shared.getCelerClient()
-    self.client = client
+    
+    self.client = CelerClientAPIHelper.shared.getClient()
     
     [clickButton, myScoreLabel, myScoreProgressView, opponentScoreLabel, opponentScoreProgressView, countDownLabel].forEach {
       view.addSubview($0)
@@ -127,8 +127,7 @@ class GameViewController: UIViewController {
     }
     let users = groupResponse.getUsers().components(separatedBy: ",")
     print(users)
-    print(KeyStoreHelper.shared.getAccountAddress(userType: .Player1))
-    if (users[0].lowercased() == KeyStoreHelper.shared.getAccountAddress(userType: .Player1).lowercased()) {
+    if (users[0].lowercased() == KeyStoreHelper.shared.getAccountAddress().lowercased()) {
       myIndex = 1
       opponentAddress = users[1]
     } else {

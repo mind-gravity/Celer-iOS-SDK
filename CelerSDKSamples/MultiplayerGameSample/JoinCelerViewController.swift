@@ -10,6 +10,9 @@ import Celer
 
 class JoinCelerViewController: UIViewController {
   
+  private let clientSideDepositAmount = "5"
+  private let serverSideDepositAmount = "15"
+  
   private var client: CelerClient? = nil
   
   let datadir = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
@@ -62,7 +65,6 @@ class JoinCelerViewController: UIViewController {
       $0.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
     }
     
-    startMatchingButton.isHidden = true
     
     createWalletButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 30).isActive = true
     fuelWalletButton.topAnchor.constraint(equalTo: createWalletButton.bottomAnchor, constant: 20).isActive = true
@@ -75,38 +77,38 @@ class JoinCelerViewController: UIViewController {
     startMatchingButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -30).isActive = true
   }
   
+  private func showLog(log: String) {
+    DispatchQueue.main.async {
+      self.textView.text.append(contentsOf: "\(log)\n")
+      let bottom = NSMakeRange(self.textView.text.count - 1, 1)
+      self.textView.scrollRangeToVisible(bottom)
+    }
+  }
+  
   @objc private func createNewWallet() {
-    _ = KeyStoreHelper.shared.getKeyStoreString(userType: .Player1)
-    textView.text.append(contentsOf: "Create wallet successlly with address: \(KeyStoreHelper.shared.getAccountAddress(userType: .Player1))")
+    showLog(log: KeyStoreHelper.shared.getAccountAddress())
   }
   
   @objc private func fuelWallet() {
-    KeyStoreHelper.shared.fuelTheAccount(userType: .Player1) { [weak self] result in
-      DispatchQueue.main.async {
-        self?.textView.text.append(contentsOf: "\n\nFuel wallet result: \(result)")
-      }
+    FaucetHelper.shared.sendToken(to: KeyStoreHelper.shared.getAccountAddress(),
+                                  from: "http://54.188.217.246:3008/donate/") { result in
+                                    switch result {
+                                    case .failure(let message):
+                                      self.showLog(log: "Fuel failed: \(message)")
+                                    case .success(let message):
+                                      self.showLog(log: message)
+                                    }
     }
   }
   
   @objc private func createCelerClient() {
-    let (result, client) = KeyStoreHelper.shared.getCelerClient()
-    self.client = client
-    textView.text.append(contentsOf: result)
+    showLog(log: CelerClientAPIHelper.shared.initCelerClient(keyStoreString: KeyStoreHelper.shared.getKeyStoreString(),
+                                                             password: KeyStoreHelper.shared.getPassword()))
   }
   
   @objc private func joinCeler() {
-    guard let client = client else {
-      textView.text.append(contentsOf: "\n\nCreate new celer client then retry joining celer.")
-      return
-    }
-    
-    do {
-      try client.joinCeler(basedOnToken: "0x0", providing: "500000000000000000", requiring: "500000000000000000")
-      textView.text.append(contentsOf: "\n\nJoin celer successfully with balance: \(client.getAvailableBalance())")
-      startMatchingButton.isHidden = false
-    } catch {
-      textView.text.append(contentsOf: "\n\n\(error.localizedDescription)")
-    }
+    showLog(log: CelerClientAPIHelper.shared.joinCeler(clientSideDepositAmount: clientSideDepositAmount,
+                                                       serverSideDepositAmount: serverSideDepositAmount))
   }
   
   @objc private func startMatching() {

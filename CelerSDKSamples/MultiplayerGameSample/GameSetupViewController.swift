@@ -56,7 +56,7 @@ class GameSetupViewController: UIViewController {
     codeLabel.text = "JoinCode: XXXXXX"
     codeTextField.placeholder = "Input Join Code"
     
-    groupClient = CelerGroupClient(serverAdress: "group-test-priv.celer.app:10001", keystoreJSON: KeyStoreHelper.shared.getKeyStoreString(userType: .Player1), password: KeyStoreHelper.shared.getPassword()) { error in
+    groupClient = CelerGroupClient(serverAdress: "group-test-priv.celer.app:10001", keystoreJSON: KeyStoreHelper.shared.getKeyStoreString(), password: KeyStoreHelper.shared.getPassword()) { error in
       DispatchQueue.main.async {
         self.textView.text?.append(contentsOf: "\nError: \(error.localizedDescription)")
       }
@@ -65,7 +65,7 @@ class GameSetupViewController: UIViewController {
   }
   
   @objc private func createGame() {
-    groupClient?.createGameFrom(userAddress: KeyStoreHelper.shared.getAccountAddress(userType: .Player1), withStake: "1000000") { error in
+    groupClient?.createGameFrom(userAddress: KeyStoreHelper.shared.getAccountAddress(), withStake: "1") { error in
       DispatchQueue.main.async {
         self.textView.text?.append(contentsOf: "\nError: \(error.localizedDescription)")
       }
@@ -78,7 +78,7 @@ class GameSetupViewController: UIViewController {
       return
     }
     
-    groupClient?.joinGame(userAddress: KeyStoreHelper.shared.getAccountAddress(userType: .Player1), withGameCode: code, withStake: stake) { error in
+    groupClient?.joinGame(userAddress: KeyStoreHelper.shared.getAccountAddress(), withGameCode: code, withStake: stake) { error in
       self.textView.text?.append(contentsOf: "\n\(error.localizedDescription)")
     }
   }

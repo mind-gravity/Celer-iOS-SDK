@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_CelerSDKSamplesVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_CelerSDKSamplesVersionString[];
+FOUNDATION_EXPORT double Pods_OffchainPaymentSampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_OffchainPaymentSampleVersionString[];
 
