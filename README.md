@@ -30,6 +30,8 @@ Note: Currently, our framework does not support bitcode, please disable it.
 
 ## API Overview
 
+### To run this sample app, you should choose OffchainPaymentSample target.
+
 ### Start the app and connect to Celer
 In this step, Celer does the following things for you: 
 * Prepare ETH account

@@ -255,8 +255,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE12136621755C7A004904C1 /* MultiplayerGameSample */,
 				AE97801F21B064A1003D0508 /* OffchainPaymentSample */,
+				AE12136621755C7A004904C1 /* MultiplayerGameSample */,
 			);
 		};
 /* End PBXProject section */
