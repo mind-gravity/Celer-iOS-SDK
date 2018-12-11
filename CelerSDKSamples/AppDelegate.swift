@@ -16,7 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window = UIWindow(frame: UIScreen.main.bounds)
     let navigationController = UINavigationController()
     window?.rootViewController = navigationController
-    navigationController.pushViewController(JoinCelerViewController(), animated: true)
+//    navigationController.pushViewController(JoinCelerViewController(), animated: true)
+    navigationController.pushViewController(OffChainPaymentViewController(), animated: true)
     window?.makeKeyAndVisible()
     return true
   }

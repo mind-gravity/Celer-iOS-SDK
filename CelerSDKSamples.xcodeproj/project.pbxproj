@@ -26,6 +26,7 @@
 		AE97804221B07F69003D0508 /* JoinCelerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE97803F21B07F69003D0508 /* JoinCelerViewController.swift */; };
 		AE97804321B07F69003D0508 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE97804021B07F69003D0508 /* GameViewController.swift */; };
 		AE97804421B08120003D0508 /* OffChainPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE97803921B06FB8003D0508 /* OffChainPaymentViewController.swift */; };
+		AED5175A21C06CC5009299AE /* OffchainPaymentSample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AED5175921C06CC5009299AE /* OffchainPaymentSample-Info.plist */; };
 		D1C9FA7C7741C048F2A870F0 /* Pods_CelerSDKSamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D93FD6552C86C5F8C5B949 /* Pods_CelerSDKSamples.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,12 +69,12 @@
 		AE12137421755C7B004904C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE12137621755C7B004904C1 /* MultiplayerGameSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiplayerGameSample-Info.plist"; sourceTree = "<group>"; };
 		AE97803221B064A1003D0508 /* OffchainPaymentSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OffchainPaymentSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE97803321B064A1003D0508 /* OffchainPaymentSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "OffchainPaymentSample-Info.plist"; path = "/Users/jinyaoli/Sample/Celer-iOS-SDK/OffchainPaymentSample-Info.plist"; sourceTree = "<absolute>"; };
 		AE97803621B0657D003D0508 /* CelerClientAPIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelerClientAPIHelper.swift; sourceTree = "<group>"; };
 		AE97803921B06FB8003D0508 /* OffChainPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffChainPaymentViewController.swift; sourceTree = "<group>"; };
 		AE97803E21B07F69003D0508 /* GameSetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSetupViewController.swift; sourceTree = "<group>"; };
 		AE97803F21B07F69003D0508 /* JoinCelerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinCelerViewController.swift; sourceTree = "<group>"; };
 		AE97804021B07F69003D0508 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AED5175921C06CC5009299AE /* OffchainPaymentSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OffchainPaymentSample-Info.plist"; sourceTree = "<group>"; };
 		C62BC194845366BA0FA74CD0 /* Pods-OffchainPaymentSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OffchainPaymentSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-OffchainPaymentSample/Pods-OffchainPaymentSample.release.xcconfig"; sourceTree = "<group>"; };
 		E3FD60E5A3562E8B1449F7DE /* Pods-CelerSDKSamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CelerSDKSamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-CelerSDKSamples/Pods-CelerSDKSamples.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,8 +159,8 @@
 		AE97803421B064D7003D0508 /* info.plists */ = {
 			isa = PBXGroup;
 			children = (
+				AED5175921C06CC5009299AE /* OffchainPaymentSample-Info.plist */,
 				AE12137621755C7B004904C1 /* MultiplayerGameSample-Info.plist */,
-				AE97803321B064A1003D0508 /* OffchainPaymentSample-Info.plist */,
 			);
 			path = info.plists;
 			sourceTree = "<group>";
@@ -276,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE97802B21B064A1003D0508 /* LaunchScreen.storyboard in Resources */,
+				AED5175A21C06CC5009299AE /* OffchainPaymentSample-Info.plist in Resources */,
 				AE97802C21B064A1003D0508 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -592,7 +594,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/OffchainPaymentSample-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/CelerSDKSamples/info.plists/OffchainPaymentSample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -619,7 +621,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/OffchainPaymentSample-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/CelerSDKSamples/info.plists/OffchainPaymentSample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
