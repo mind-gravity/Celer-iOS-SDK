@@ -30,8 +30,6 @@ Note: Currently, our framework does not support bitcode, please disable it.
 
 ## API Overview
 
-### To run this sample app, you should choose OffchainPaymentSample target.
-
 ### Start the app and connect to Celer
 In this step, Celer does the following things for you: 
 * Prepare ETH account
@@ -52,6 +50,8 @@ Implement the following code on your "send" button click event or UI swipe event
 
 
 ## Get started
+
+### To run this sample app, you should choose OffchainPaymentSample target.
 
 ### Step 1. Create a wallet
 
@@ -208,6 +208,8 @@ do {
 # Multiplayer Mobile Game 
 
 ## API Overview
+
+### To run sample app, you should choose MultipleGameSample target.
 
 ### Step 1. Start the app and connect to Celer
 In this step, Celer does the following things: 
