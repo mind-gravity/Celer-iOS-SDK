@@ -16,7 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window = UIWindow(frame: UIScreen.main.bounds)
     let navigationController = UINavigationController()
     window?.rootViewController = navigationController
-    navigationController.pushViewController(JoinCelerViewController(), animated: true)
+    
+    
+    // If you choose MultiplayerGameSample target, uncomment the following line
+//    navigationController.pushViewController(JoinCelerViewController(), animated: true)
+    
+    // If you choose offchainPaymentSample target, uncomment the following line
 //    navigationController.pushViewController(OffChainPaymentViewController(), animated: true)
     window?.makeKeyAndVisible()
     return true
