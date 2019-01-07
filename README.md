@@ -7,13 +7,12 @@ https://docs.google.com/document/d/17xTCVwyPqIiSNYr5dR7n3k9wNzGhXzvzwmdSDpUVbtk/
 ```ruby
 platform :ios, '12.0'
 
-# You need to set target when you use CocoaPods 1.0.0 or later.
 target 'SampleTarget' do
   use_frameworks!
   pod 'Celer', :git => 'https://github.com/celer-network/CelerPod.git'
 end
 ```
-Note: Currently, our framework does not support bitcode, please disable it.
+Note: Currently, our framework does not support bitcode, please disable it. 
 ```ruby
   post_install do |installer|
     installer.pods_project.targets.each do |target|
@@ -23,6 +22,8 @@ Note: Currently, our framework does not support bitcode, please disable it.
     end
   end
 ```
+Note: We currently do not support simulators. To build and run this sample, you should choose a device instead of simulators.
+
 
 # Add Payment funtionality to your app 
 
