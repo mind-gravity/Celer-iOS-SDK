@@ -241,6 +241,13 @@
 					AE12136621755C7A004904C1 = {
 						CreatedOnToolsVersion = 10.0;
 					};
+					AE97801F21B064A1003D0508 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
 				};
 			};
 			buildConfigurationList = AE12136221755C7A004904C1 /* Build configuration list for PBXProject "CelerSDKSamples" */;

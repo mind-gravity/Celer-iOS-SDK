@@ -56,7 +56,7 @@ class GameSetupViewController: UIViewController {
     codeLabel.text = "JoinCode: XXXXXX"
     codeTextField.placeholder = "Input Join Code"
     
-    groupClient = CelerGroupClient(serverAdress: "group-test-priv.celer.app:10001", keystoreJSON: KeyStoreHelper.shared.getKeyStoreString(), password: KeyStoreHelper.shared.getPassword()) { error in
+    groupClient = CelerGroupClient(serverAdress: "group-hack-ropsten.celer.app:10001", keystoreJSON: KeyStoreHelper.shared.getKeyStoreString(), password: KeyStoreHelper.shared.getPassword()) { error in
       DispatchQueue.main.async {
         self.textView.text?.append(contentsOf: "\nError: \(error.localizedDescription)")
       }

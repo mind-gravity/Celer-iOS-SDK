@@ -111,6 +111,7 @@ final class OffChainPaymentViewController: UIViewController {
   
   @objc private func createNewWallet() {
     showLog(log: KeyStoreHelper.shared.getAccountAddress())
+    print(KeyStoreHelper.shared.getAccountAddress())
   }
   
   @objc private func fuelWallet() {

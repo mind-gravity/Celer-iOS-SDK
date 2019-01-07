@@ -1,6 +1,6 @@
 {
   "name": "Celer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "SDK for celer clients",
   "description": "This is used for integrate DApps with celer support.",
   "homepage": "https://www.celer.network/",
@@ -17,7 +17,7 @@
   },
   "source": {
     "git": "https://github.com/celer-network/CelerPod.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "source_files": [
     "Celer",

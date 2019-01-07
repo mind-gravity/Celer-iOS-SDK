@@ -3,13 +3,13 @@ platform :ios, '9.0'
 target 'MultiplayerGameSample' do
   use_frameworks!
 
-  pod 'Celer', :git => 'https://github.com/celer-network/CelerPod.git', :tag => '0.0.1'
+  pod 'Celer', :git => 'https://github.com/celer-network/CelerPod.git'
 end
 
 target 'OffchainPaymentSample' do
   use_frameworks!
   
-  pod 'Celer', :git => 'https://github.com/celer-network/CelerPod.git', :tag => '0.0.1'
+  pod 'Celer', :git => 'https://github.com/celer-network/CelerPod.git'
 end
 
 post_install do |installer|

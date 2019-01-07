@@ -1,22 +1,21 @@
 PODS:
-  - Celer (0.0.1)
+  - Celer (0.0.2)
 
 DEPENDENCIES:
-  - Celer (from `https://github.com/celer-network/CelerPod.git`, tag `0.0.1`)
+  - Celer (from `https://github.com/celer-network/CelerPod.git`)
 
 EXTERNAL SOURCES:
   Celer:
     :git: https://github.com/celer-network/CelerPod.git
-    :tag: 0.0.1
 
 CHECKOUT OPTIONS:
   Celer:
+    :commit: 661824be4e19af6c54961730d07b14de2c255542
     :git: https://github.com/celer-network/CelerPod.git
-    :tag: 0.0.1
 
 SPEC CHECKSUMS:
-  Celer: bf0bfc070f99868608666ee988f36a610cebef99
+  Celer: 5fd51821ce2c1d70c542ad63ac10cc9fce1a7ab6
 
-PODFILE CHECKSUM: 0a2cc350b3179b2af82c5b89b92f9650c812243c
+PODFILE CHECKSUM: f140fd99623286a82488fb147ca622c8e62933c7
 
 COCOAPODS: 1.5.3
