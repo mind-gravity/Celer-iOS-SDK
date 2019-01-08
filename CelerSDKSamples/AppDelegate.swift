@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //    navigationController.pushViewController(JoinCelerViewController(), animated: true)
     
     // If you choose offchainPaymentSample target, uncomment the following line
-//    navigationController.pushViewController(OffChainPaymentViewController(), animated: true)
+    navigationController.pushViewController(OffChainPaymentViewController(), animated: true)
     window?.makeKeyAndVisible()
     return true
   }

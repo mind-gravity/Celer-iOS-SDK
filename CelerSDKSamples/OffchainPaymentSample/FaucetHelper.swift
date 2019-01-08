@@ -31,4 +31,25 @@ final class FaucetHelper {
       resultHandler(.success(message: "Fuel account: \(accountAddress) successfully."))
     }.resume()
   }
+  
+  func fuelAccount(accountAddress: String, resultHandler: @escaping ((FaucetResult) -> Void) ) {
+    let faucetURL = URL(string: "https://faucet.metamask.io/")!
+    var request = URLRequest(url: faucetURL)
+    request.httpMethod = "POST"
+    request.httpBody = accountAddress.data(using: .utf8)
+    DispatchQueue.global(qos: .background).async {
+      URLSession.shared.dataTask(with: request) { data, response, error in
+        if let error = error {
+          resultHandler(.failure(message: error.localizedDescription))
+          return
+        }
+        
+        guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {
+          resultHandler(.failure(message: String(describing: response)))
+          return
+        }
+        resultHandler(.success(message: "Fuel account: \(accountAddress) successfully."))
+      }.resume()
+    }
+  }
 }
