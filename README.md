@@ -24,7 +24,7 @@ Note: Currently, our framework does not support bitcode, please disable it.
 ```
 
 Updated: With updated framework, simulators can build and run this sample application. There are a few steps to make it run on simulators.
-1. Download framework in https://drive.google.com/file/d/1liFSbIs3KdEcka9lB0oSzEKlL-6AyQaz/view. Rename it to Celersdk.framework.
+1. Download framework in https://drive.google.com/file/d/1WFL0kRaVx1N_K_08kv5l3gKBz2wml1yz/view. Rename it to Celersdk.framework.
 2. In file directory ~/Celer-iOS-SDK/Pods/Celer/Frameworks, replace previous Celersdk.framework with new one.
 3. Build and run with simutlators in XCode.
 
