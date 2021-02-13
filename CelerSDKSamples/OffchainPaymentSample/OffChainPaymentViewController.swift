@@ -111,18 +111,27 @@ final class OffChainPaymentViewController: UIViewController {
   
   @objc private func createNewWallet() {
     showLog(log: KeyStoreHelper.shared.getAccountAddress())
+    print(KeyStoreHelper.shared.getAccountAddress())
   }
   
   @objc private func fuelWallet() {
-    FaucetHelper.shared.sendToken(to: KeyStoreHelper.shared.getAccountAddress(),
-                                  from: "http://54.188.217.246:3008/donate/") { result in
+//    FaucetHelper.shared.sendToken(to: KeyStoreHelper.shared.getAccountAddress(),
+//                                  from: "http://54.188.217.246:3008/donate/") { result in
+//                                    switch result {
+//                                    case .failure(let message):
+//                                      self.showLog(log: "Fuel failed: \(message)")
+//                                    case .success(let message):
+//                                      self.showLog(log: message)
+//                                    }
+//    }
+    FaucetHelper.shared.fuelAccount(accountAddress: KeyStoreHelper.shared.getAccountAddress()) { result in
                                     switch result {
                                     case .failure(let message):
                                       self.showLog(log: "Fuel failed: \(message)")
                                     case .success(let message):
                                       self.showLog(log: message)
                                     }
-    }
+    } 
   }
   
   @objc private func createCelerClient() {
